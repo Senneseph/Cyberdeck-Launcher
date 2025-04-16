@@ -1,0 +1,29 @@
+{
+  "name": "cyberdeck-launcher",
+  "version": "0.1.0",
+  "description": "A modern, lightweight application launcher for the Cyberdeck ecosystem",
+  "main": "app/src/index.js",
+  "scripts": {
+    "dev": "echo \"Development server not yet implemented\" && exit 1",
+    "build": "echo \"Build process not yet implemented\" && exit 1",
+    "test": "echo \"Tests not yet implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senneseph/Cyberdeck-Launcher.git"
+  },
+  "keywords": [
+    "cyberdeck",
+    "launcher",
+    "pwa",
+    "application"
+  ],
+  "author": "Benjamin Hill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Senneseph/Cyberdeck-Launcher/issues"
+  },
+  "homepage": "https://github.com/Senneseph/Cyberdeck-Launcher#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
