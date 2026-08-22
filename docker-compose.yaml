@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: app/environment/Dockerfile
+    ports:
+      - "${APP_PORT:-3005}:80"
+    volumes:
+      # Serve the meta-project root so the launcher's imports (../../jcule/dist, etc.) resolve.
+      - ..:/usr/share/nginx/html:ro
+    restart: unless-stopped

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b6bcb" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>Cyberdeck Launcher</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #1f2328; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./main.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js');
+    </script>
+  </body>
+</html>

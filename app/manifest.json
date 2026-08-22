@@ -1,0 +1,16 @@
+{
+  "name": "Cyberdeck Launcher",
+  "short_name": "Launcher",
+  "start_url": "/Cyberdeck-Launcher/app/index.html",
+  "display": "standalone",
+  "background_color": "#12161c",
+  "theme_color": "#0b6bcb",
+  "webax": {
+    "package_id": "cyberdeck-launcher",
+    "version": "0.1.0",
+    "publisher": "webax",
+    "permissions": ["storage", "network"],
+    "provides": [{ "intent": "launch", "type": "app" }],
+    "services": []
+  }
+}
